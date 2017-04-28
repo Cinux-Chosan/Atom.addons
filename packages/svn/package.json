@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117326-24997-eraf32.bzvxp9cnmi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117326-24997-eraf32.bzvxp9cnmi/package.tgz",
+        "spec": "/tmp/d-117326-24997-eraf32.bzvxp9cnmi/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117326-24997-qd820y.i58vo39pb9"
+    ]
+  ],
+  "_from": "../d-117326-24997-eraf32.bzvxp9cnmi/package.tgz",
+  "_id": "svn@0.0.13",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/svn",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117326-24997-eraf32.bzvxp9cnmi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117326-24997-eraf32.bzvxp9cnmi/package.tgz",
+    "spec": "/tmp/d-117326-24997-eraf32.bzvxp9cnmi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117326-24997-eraf32.bzvxp9cnmi/package.tgz",
+  "_shasum": "70aba1ba8f6ee4207399cadffae699a5de6297ce",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117326-24997-eraf32.bzvxp9cnmi/package.tgz",
+  "_where": "/tmp/apm-install-dir-117326-24997-qd820y.i58vo39pb9",
+  "bugs": {
+    "url": "https://github.com/andischerer/atom-svn/issues"
+  },
+  "coffeelintConfig": {
+    "indentation": {
+      "level": "error",
+      "value": 2
+    },
+    "line_endings": {
+      "value": "unix",
+      "level": "error"
+    },
+    "max_line_length": {
+      "level": "ignore"
+    }
+  },
+  "dependencies": {
+    "event-kit": "2.0.0",
+    "jquery": "2.2.0",
+    "jsdifflib": "1.1.0"
+  },
+  "description": "Marks lines/files in the editor gutter/treeview that have been added, edited, or deleted since the last commit.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.200.0"
+  },
+  "homepage": "https://github.com/andischerer/atom-svn#readme",
+  "keywords": [
+    "svn",
+    "vcs"
+  ],
+  "license": "MIT",
+  "main": "./lib/svn",
+  "name": "svn",
+  "optionalDependencies": {},
+  "providedServices": {
+    "atom.repository-provider": {
+      "versions": {
+        "0.1.0": "getRepositoryProviderService"
+      }
+    }
+  },
+  "readme": "# SVN package\n\nSVN VCS integration: Marks lines/files in the editor gutter/treeview that have been added, edited, or deleted since the last commit. Repository status information get displayed in footer.\n\nThe `git-diff` package has to be enabled to see the repository status marks in gutter and treeview.\n\nThis package uses a __binary svn wrapper__. So you have to put your svn-binary in your os __searchpath__.\n\nThis package plays well with third party plugins(like minimap-git-diff) who consume the `repository-provider` service.\n\n## Installation ##\n### From atom GUI\nGo in Atom's **Settings** page, through **packages** section. Under **Community Packages** search for \"*svn*\" and Install it.\n\n### From commandline\nOpen commandline and install this package by executing the following command:\n```\napm install svn\n```\n\n\n# Team\n[![Andreas Scherer](https://avatars.githubusercontent.com/u/930604?s=130)](https://github.com/andischerer) | [![Orvar Segerström](https://avatars.githubusercontent.com/u/1098408?s=130)](https://github.com/awestroke)\n---|---|---|---\n[Andreas Scherer](https://github.com/andischerer) | [Orvar Segerström](https://github.com/awestroke)",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andischerer/atom-svn.git"
+  },
+  "version": "0.0.13"
+}
